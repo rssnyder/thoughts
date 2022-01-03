@@ -1,11 +1,9 @@
-targetdir="${0%/*}"
+cd "${0%/*}"
 
-# add thought
+git pull
+
 sed -i "3i\\
 - $1" "$targetdir/index.md"
-
-# push thought
-cd $targetdir
 
 git add index.md
 git commit -m "$1"
