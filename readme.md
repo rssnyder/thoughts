@@ -11,3 +11,5 @@ alias think='/path/to/repo/think.sh'
 ```bash
 think "thoughts here"
 ```
+
+powered by github's generosity
